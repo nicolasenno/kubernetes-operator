@@ -976,6 +976,22 @@ fsGroup: 1000</p>
 </tr>
 <tr>
 <td>
+<code>initContainers</code></br>
+<em>
+<a href="https://godoc.org/k8s.io/api/core/v1#Container">
+https://godoc.org/k8s.io/api/core/v1#Container
+</a>
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>List of init containers belonging to the pod.
+Containers cannot currently be added or removed
+</p>
+</td>
+</tr>
+<tr>
+<td>
 <code>containers</code></br>
 <em>
 <a href="#github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkins/v1alpha2.Container">
